@@ -1,0 +1,37 @@
+schema_type: dataframe
+api: pandas
+columns:
+  production:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  capacity:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Plant age:
+    dtype: float64
+    nullable: true
+    in_range:
+      min_value: 0
+      max_value: 250
+      include_min: true
+      include_max: true
+  Workforce size:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Main production equipment:
+    dtype: str
+  Country/area:
+    dtype: str
+  Region:
+    dtype: str
+    isin:
+    - Asia Pacific
+    - Europe
+    - North America
+    - Middle East
+    - Africa
+    - Eurasia
+    - Central & South America

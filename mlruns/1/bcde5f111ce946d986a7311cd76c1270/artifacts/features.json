@@ -1,0 +1,14 @@
+{
+  "numeric": [
+    "log_capacity",
+    "Plant age",
+    "log_Workforce size",
+    "capacity_per_worker",
+    "n_processes",
+    "eaf_only"
+  ],
+  "categorical": [
+    "Main production equipment",
+    "Region"
+  ]
+}
